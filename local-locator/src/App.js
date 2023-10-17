@@ -1,8 +1,15 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import TournamentSearch from './components/TournamentSearch';
+import TournamentsList from './components/TournamentsList';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <>
+      <Navbar />
+      <TournamentSearch />
+      <TournamentsList />
+    </>
   );
 }
 
