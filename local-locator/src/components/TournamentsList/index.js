@@ -11,6 +11,9 @@ const TournamentsList = () => {
             <div>
                 <p>TournamentsList</p>
                 <TournamentItem />
+                <TournamentItem />
+                <TournamentItem />
+                <TournamentItem />
             </div>
         </>
     );
